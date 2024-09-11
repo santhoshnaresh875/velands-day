@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    background-color:transparent;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #ff4d6d;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ff4d6d;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff7f91;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: gray;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.wish-card {
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 56px;
+}
+
+
+h1 {
+    color: #e63946;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.signature {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f7f6f3;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.py{
+    font-size: 40px;
+    color: #2cbfc9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+.total {
+    background-image: url("./WhatsApp\ Image\ 2024-09-11\ at\ 12.59.19_ca96ab64.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 100vh; }
+
+
+@media (max-width: 768px) {
+    .total {
+        background-attachment: scroll;
+        height: auto; 
+    }
+}
+
+@media (max-width: 480px) {
+    .total {
+        background-position: center center; 
+    }
+}
+
+.cont{
+    color: white;
+}
+ .h1{
+    color: lightblue !important;
+}
+
+
+
+ 
+
+
+
